@@ -1,0 +1,35 @@
+{
+  "name": "api_rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "knex": "npx knex",
+    "test": "vitest",
+    "build": "tsup src --out-dir build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cookie": "^9.4.0",
+    "@types/supertest": "^6.0.2",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "knex": "^2.4.2",
+    "mysql2": "^3.11.0",
+    "pg": "^8.12.0",
+    "sqlite3": "^5.1.7",
+    "supertest": "^7.0.0",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.2.4",
+    "xlsx": "^0.18.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "tsx": "^3.12.2",
+    "typescript": "^4.9.5",
+    "vitest": "^2.0.5"
+  }
+}
